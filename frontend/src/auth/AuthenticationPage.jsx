@@ -20,4 +20,4 @@ function AuthenticationPage() {
     );
 }
 
-export default HistoryPanel;
+export default AuthenticationPage;
