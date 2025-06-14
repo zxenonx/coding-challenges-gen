@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import {ClerkProviderWithRoutes} from './auth/ClerkProviderWithRoutes.jsx'
+import ClerkProviderWithRoutes from './auth/ClerkProviderWithRoutes.jsx'
 import { Routes, Route } from 'react-router-dom'
 
-import {Layout} from './layout/Layout.jsx'
+import Layout from './layout/Layout.jsx'
 import {ChallengeGen} from './challenge/ChallengeGen.jsx'
-import {MCQChallenge} from './challenge/MCQChallenge.jsx'
-import {HistoryPanel} from './history/HistoryPanel.jsx'
-import {AuthenticationPage} from './auth/AuthenticationPage.jsx'
+import MCQChallenge from './challenge/MCQChallenge.jsx'
+import HistoryPanel from './history/HistoryPanel.jsx'
+import AuthenticationPage from './auth/AuthenticationPage.jsx'
 
 import './App.css'
 
